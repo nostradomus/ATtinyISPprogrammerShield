@@ -24,7 +24,7 @@ An optional AVR ISP socket has been foreseen in order to use the shield as stand
 ### How things work
 
 First the the ISP-programmer sketch (built-in example) should be loaded to the Arduino UNO board. During that operation, the blue jumper (JP1) should be removed. Select “Arduino Uno” as target board in the tools-menu. Load the ISP-programmer sketch with the “UPLOAD” button. Once loaded, the jumper can be put back to send your a sketch to your attiny 𝜇-controller. 
-![ISP-sketch](images/menu - File-Examples.png)
+![ISP-sketch] ("images/menu - File-Examples.png")
 To load a sketch to your attiny chip, make sure that the correct target board is selected in the tools-menu (you might need to download a specific library -> tools-menu, board manager). This time, use the “UPLOAD USING PROGRAMMER” option from the sketch-menu.
 The 3 LED’s will tell you how things are going : 
  - Green  : ISP programmer running
