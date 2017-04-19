@@ -28,6 +28,9 @@ First the the ISP-programmer sketch (built-in example) should be loaded to the A
 ![ISP example sketch](images/menu_File-Examples.png) ![Board selection](images/menu_Tools-Board.png) ![Upload](images/menu_Sketch-Upload.png)
 
 To load a sketch to your attiny chip, make sure that the correct target board is selected in the tools-menu (you might need to download a specific library -> tools-menu, board manager). This time, use the “UPLOAD USING PROGRAMMER” option from the sketch-menu.
+
+![Programmer selection](images/menu_Tools-Programmer.png) ![Upload Using Programmer](images/menu_Sketch-Upload_Using_Programmer.png) 
+
 The 3 LED’s will tell you how things are going : 
  - Green  : ISP programmer running
  - Yellow : uploading sketch
