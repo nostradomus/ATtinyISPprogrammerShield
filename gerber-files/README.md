@@ -3,3 +3,4 @@ This folder contains all gerber files required to have the printed circuit board
  - top-layer - copper
  - bottom-layer - solder mask
  - top-layer - silk screen
+ - drilling instructions
