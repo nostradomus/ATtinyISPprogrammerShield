@@ -27,6 +27,24 @@ An optional AVR ISP socket has been foreseen in order to use the shield as stand
 
 ![Shield with text annotations](images/photo-shield_with_annotations.png)
 
+#### BOM - bill of materials
+
+Part | Value | Package | Description  
+---- | ----- | ------- | -----------                            
+R1     | 10kΩ           | 0207/7       | resistor                                            
+R2,3,4 | 270Ω           | 0207/7       | resistor                                            
+C1     | 10µF/16V       | E2,5-6E      | polarized capacitor                                 
+C3     | 100nF          | C050-025X075 | capacitor                                           
+LED1   | 3mm Yellow     | 3mm          | LED                              
+LED2   | 3mm green      | 3mm          | LED                              
+LED3   | 3mm Yellow     | 3mm          | LED                                                                                             
+IC1    | 8-pin          | DIL08        | IC socket                                                            
+IC2    | 14-pin         | DIL14        | IC socket                                                                     
+IC3    | 20-pin         | DIL20        | IC socket                                                                     
+ICSP1  | 2x3 pin-header | 2x3          | AVR ISP-6 Serial Programming Header (optional)                                 
+JP1    | 1x2 pin-header | 1x2          | pin header for jumper (+blue jumper, or any color you like)                                                
+S1     | moment         | 4-pin        | dip-switch                            
+
 ### How things work
 
 First the the ISP-programmer sketch (built-in example) should be loaded to the Arduino UNO board. During that operation, the blue jumper (JP1) should be removed. Select “Arduino Uno” as target board in the tools-menu. Load the ISP-programmer sketch with the “UPLOAD” button. Once loaded, the jumper can be put back to send your a sketch to your attiny 𝜇-controller. 
