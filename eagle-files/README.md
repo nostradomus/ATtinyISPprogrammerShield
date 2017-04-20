@@ -4,3 +4,7 @@ This folder contains all files required to open the project in the EAGLE PCB sof
  - .sch : schematic file
  - .brd : pcb layout file
  
+ These files should (grouped in a folder) either be copied in Eagle's project directory (see below image of the settings window). The Eagle directory settings also accept multiple paths. The Eagle syntax requires columns as path separators.
+
+![Directory settings](../images/menu_Options-Directories.png)
+
