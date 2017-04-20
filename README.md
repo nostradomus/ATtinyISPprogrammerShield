@@ -12,7 +12,9 @@ Often, one of these "tiny" chips is largely powerful enough for the design of sm
 
 ## How
 
-The shield has been designed with EAGLE from AutoDesk/CadSoft. The files can be opened with the free version [(download here)](http://www.autodesk.com/products/eagle/free-download). In order to keep things simple, the PCB can be etched single-sided, as the top-layer only contains a couple of short connections (which can easily be replaced by wire-bridges). Only through-hole components have been used in order to make the built also feasible for any beginner. In the [pdf-folder](pdf-files/) of this repo pdf versions of all important EAGLE views are available, for those not wanting to install EAGLE. Pay attention to print the bottom and top-layer layouts **without re-sizing** (1:1). 
+The shield has been designed with EAGLE from AutoDesk/CadSoft. The files can be opened with the free version [(download here)](http://www.autodesk.com/products/eagle/free-download). In order to keep things simple, the PCB can be etched single-sided, as the top-layer only contains a couple of short connections (which can easily be replaced by wire-bridges). Only through-hole components have been used in order to make the built also feasible for any beginner. In the [pdf-folder](pdf-files/) of this repo pdf versions of all important EAGLE views are available, for those not wanting to install EAGLE. Pay attention to print the bottom and top-layer layouts **without re-sizing** (1:1). To have the printed circuit board built by a commercial PCB-shop, the [gerber-files](gerber-files/) are also available.
+
+![PCB](images/eagle-pcb.png)
 
 ## Technical details
 
