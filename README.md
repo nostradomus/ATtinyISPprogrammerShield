@@ -4,6 +4,8 @@
 
 This repo provides you with all necessary info (and files) to build an Arduino shield to program Atmel's **attiny** 𝜇-controllers. For that matter, the underlying Arduino board should be loaded with the ISP-programmer sketch (built-in example).
 
+![Shield - topview](images/photo-shield_only_top_view.png) ![Shield - bottomview](images/photo-shield_only_bottom_view.png)
+
 ## Why
 
 Often, one of these "tiny" chips is largely powerful enough for the design of small projects. During the design phase, I however got tired of wiring up things on a breadboard. As (like many people) I was having a spare UNO, which could serve as an ISP programmer, I decided to design a minimalistic shield to fit on top of it.  
@@ -16,10 +18,12 @@ The shield has been designed with EAGLE from AutoDesk/CadSoft. The files can be 
 
 ### What’s on the board
 
-The board is fit with 3 IC sockets (8, 14 and 20 pin), for the 3 types attiny’s. **Only one should be fit at a time !** On the prototype, pin headers with double functionality have been mounted. Pins on the bottom-side to fit on the Arduino board, and feed-through female headers on the top for easy access of all Arduino connections. 
+The board is fit with 3 IC sockets (8, 14 and 20 pin), for the 3 types attiny’s. **Only one chip should be fit at a time !** On the prototype, pin headers with double functionality have been mounted. Pins on the bottom-side to fit on the Arduino board, and feed-through female headers on the top for easy access of all Arduino connections. 
 The push button, is connected to the reset lines of the attiny’s with a 10kΩ pull-up resistor. When the shield is cut correctly, the reset button for the Arduino UNO itself should still be accessible. In order to make the Arduino Uno work as an ISP programmer a 10µF capacitor needs to be connected on its reset-line. 
 Three LED’s are available to visualise the correct functionality of the programming procedure.
 An optional AVR ISP socket has been foreseen in order to use the shield as stand-alone with a commercial programmer. 
+
+![Shield with text annotations](images/photo-shield_with_annotations.png)
 
 ### How things work
 
