@@ -35,9 +35,9 @@ R1     | 10kΩ           | 0207/7       | resistor
 R2,3,4 | 270Ω           | 0207/7       | resistor                                            
 C1     | 10µF/16V       | E2,5-6E      | polarized capacitor                                 
 C3     | 100nF          | C050-025X075 | capacitor                                           
-LED1   | 3mm Yellow     | 3mm          | LED                              
-LED2   | 3mm green      | 3mm          | LED                              
-LED3   | 3mm Yellow     | 3mm          | LED                                                                                             
+LED1   | 3mm yellow     | 3mm          | LED                              
+LED2   | 3mm red        | 3mm          | LED                              
+LED3   | 3mm green      | 3mm          | LED                                                                                             
 IC1    | 8-pin          | DIL08        | IC socket                                                            
 IC2    | 14-pin         | DIL14        | IC socket                                                                     
 IC3    | 20-pin         | DIL20        | IC socket                                                                     
