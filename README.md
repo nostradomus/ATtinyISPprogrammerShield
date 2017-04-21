@@ -20,7 +20,7 @@ The shield has been designed with EAGLE from AutoDesk/CadSoft. This shield [proj
 
 ### What’s on the board
 
-The board is fit with 3 IC sockets (8, 14 and 20 pin), for the 3 types attiny’s. **Only one chip should be fit at a time !** On the prototype, pin headers with double functionality have been mounted. Pins on the bottom-side to fit on the Arduino board, and feed-through female headers on the top for easy access of all Arduino connections. 
+The board is fit with 3 IC sockets (8, 14 and 20 pin), for the 3 types attiny’s. **Only one chip should be fit at a time** :exclamation: On the prototype, pin headers with double functionality have been mounted. Pins on the bottom-side to fit on the Arduino board, and feed-through female headers on the top for easy access of all Arduino connections. 
 The push button, is connected to the reset lines of the attiny’s with a 10kΩ pull-up resistor. When the shield is cut correctly, the reset button for the Arduino UNO itself should still be accessible. In order to make the Arduino Uno work as an ISP programmer a 10µF capacitor needs to be connected on its reset-line. 
 Three LED’s are available to visualise the correct functionality of the programming procedure.
 An optional AVR ISP socket has been foreseen in order to use the shield as stand-alone with a commercial programmer. 
@@ -76,11 +76,13 @@ So far, I have tested the shield with the below list of 𝜇-controllers :
 
 ## Contributors
 
-If you are having any good suggestions, just drop me a line. 
+If you are having any good suggestions, just drop me a line [:email:](http://nostradomus.ddns.net/contactform.html). 
 If feasible, I'll be happy to implement proposed improvements. 
 And if you are having lots of time, I'll be happy to share the work with you ;-).
 
-## License
+## :globe_with_meridians: License
 
 There is no specific license attached to this shield. 
-If you like it, have fun with it (at your own risk :-D).
+If you like it, have fun with it (at your own risk of course :-D).
+Oh, and when using anything from this repository, it is highly appreciated if you mention its origin.
+
