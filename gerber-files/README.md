@@ -1,7 +1,11 @@
-This folder contains all gerber files required to have the printed circuit board built by a pcb-shop :
- - bottom-layer - copper (SOL)
- - top-layer - copper (CMP)
- - bottom-layer - solder mask (STS)
- - top-layer - solder mask (STC)
- - top-layer - silk screen (PLC)
- - drilling instructions (DRD)
+This folder contains all gerber files required to have the printed circuit boards built by a pcb-shop :
+- Top layer : (gerb274x)
+  - copper (CMP)
+  - solder mask (STC)
+  - silk screen (PLC)
+- Bottom layer : (gerb274x)
+  - copper (SOL)
+  - solder mask (STS)
+  - silk screen (PLS)
+- Drilling : (excellon)
+  - drilling instructions (DRD)
