@@ -25,7 +25,7 @@ The push button, is connected to the reset lines of the attiny’s with a 10kΩ 
 Three LED’s are available to visualise the correct functionality of the programming procedure.
 An optional AVR ISP socket has been foreseen in order to use the shield as stand-alone with a commercial programmer.
 
-![Shield with text annotations](images/photo-shield_with_annotations.png)
+![V2 shield with text annotations](images/photo-shield_with_annotations.png) ![V1 shield with text annotations](images/photo-V1-shield_with_annotations.png)
 
 #### BOM - bill of materials
 
@@ -50,7 +50,7 @@ CON4   | 10-pin         | SIL10          | long needle female stackable pin head
 
 ### How things work
 
-First the the [ISP-programmer sketch](sketches/ArduinoISP.ino) (built-in example) should be loaded to the Arduino UNO board. During that operation, the blue jumper (JP1) should be removed. Select “Arduino Uno” as target board in the tools-menu. Load the ISP-programmer sketch with the “UPLOAD” button. Once loaded, the jumper can be put back to send your a sketch to your attiny 𝜇-controller.
+First the the [ISP-programmer sketch](sketches/ArduinoISP.ino) (built-in example) should be loaded to the Arduino UNO board. During that operation, switch S2 should be set to 'PROG' (or remove the blue jumper JP1 on a V1 board). Select “Arduino Uno” as target board in the tools-menu. Load the ISP-programmer sketch with the “UPLOAD” button. Once loaded, the jumper can be put back to send your a sketch to your attiny 𝜇-controller.
 
 ![ISP example sketch](images/menu_File-Examples.png) ![Board selection](images/menu_Tools-Board.png) ![Upload](images/menu_Sketch-Upload.png)
 
