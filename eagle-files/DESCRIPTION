@@ -1,3 +1,4 @@
-<H3>ATtiny programmer shield</H3>
-<p>Shield to fit on an Arduino UNO, which is configured as "Arduino-ISP".</p>
-<p>The shield can be used to program 8/14/20-pin attiny's.</p>
+<H3>Attiny programmer shield</H3>
+<p>This shield can be fit on top of an Arduino UNO, which is configured as "Arduino-ISP"</p>
+<p>The shield can be used to program 8/14/20-pin attiny µ-controllers</p>
+<p>An ICSP connector has been mounted, in order to use the shield to program any (Atmel) µ-controller using this protocol</p>
