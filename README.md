@@ -17,7 +17,7 @@ Often, one of these "tiny" chips is largely powerful enough for the design of sm
 
 The shield has been designed with EAGLE from AutoDesk/CadSoft. This shield [project](eagle-files/) can be opened with the free version [(download here)](http://www.autodesk.com/products/eagle/free-download). In order to keep things simple, the V1 PCB can be etched single-sided, as the top-layer only contains a couple of short connections (which can easily be replaced by wire-bridges). The V2 PCB (a real double-sided version) has optimised routing and ground-pours. Only [through-hole components](BOM.md) have been used in order to make the built also feasible for any beginner. In the [pdf-folder](pdf-files/) of this repo pdf versions of all important EAGLE views are available, for those not wanting to install EAGLE. Pay attention to print the bottom and top-layer layouts **without re-sizing** (1:1). To have the printed circuit board built by a commercial PCB-shop, the [gerber-files](gerber-files/) are also available. A series of V2 PCB's is still available in our workshop.
 
-![PCB](images/eagle-pcb.png)
+![PCB](images/eagle-schematic-s.png) ![PCB](images/eagle-pcb-s.png)
 
 ## Technical details
 
