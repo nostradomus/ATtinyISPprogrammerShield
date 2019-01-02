@@ -9,11 +9,9 @@
 *.tar
 *.zip
 
-
 # Logs and databases #
 ######################
 *.log
-
 
 # OS generated files #
 ######################
