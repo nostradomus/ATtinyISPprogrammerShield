@@ -11,6 +11,8 @@ This repo provides you with all necessary info (and files) to build an Arduino s
 
 Often, one of these "tiny" chips is largely powerful enough for the design of small projects. During the design phase, I however got tired of wiring up things on a breadboard. As (like many people) I was having a spare UNO, which could serve as an ISP programmer, I decided to design a minimalistic shield to fit on top of it.  
 
+[![PCB - component side](images/component_side-frontal_view-s.png)](images/component_side-frontal_view.png) [![PCB - copper side](images/copper_side-frontal_view-s.png)](images/copper_side-frontal_view.png)
+
 ## How
 
 The shield has been designed with EAGLE from AutoDesk/CadSoft. This shield [project](eagle-files/) can be opened with the free version [(download here)](http://www.autodesk.com/products/eagle/free-download). In order to keep things simple, the V1 PCB can be etched single-sided, as the top-layer only contains a couple of short connections (which can easily be replaced by wire-bridges). The V2 PCB (a real double-sided version) has optimised routing and ground-pours. Only [through-hole components](BOM.md) have been used in order to make the built also feasible for any beginner. In the [pdf-folder](pdf-files/) of this repo pdf versions of all important EAGLE views are available, for those not wanting to install EAGLE. Pay attention to print the bottom and top-layer layouts **without re-sizing** (1:1). To have the printed circuit board built by a commercial PCB-shop, the [gerber-files](gerber-files/) are also available. A series of V2 PCB's is still available in our workshop.
